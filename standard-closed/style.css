@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav.side-nav{
+    background: #fbd05e;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100px;
+}
+
+nav.side-nav header.logo-container{
+    display: flex;
+    height: 80px;
+}
+
+nav.side-nav header.logo-container img.logo, nav.side-nav header.logo-container a{
+    height: 32px;
+    margin: auto;
+}
+
+nav.side-nav ul.side-nav-links{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+
+nav.side-nav ul.side-nav-links li.side-nav-link, nav.side-nav ul.side-nav-links a li.side-nav-link img{
+    height: 24px;
+    margin: auto;
+}
+
+nav.side-nav ul.side-nav-links a li.side-nav-link {
+    display: flex;
+    list-style-type: none;
+    padding: 30px 0px;
+    width:100%;
+}
+
+nav.side-nav ul.side-nav-links a{
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+
+nav.side-nav ul.side-nav-links a li.side-nav-link div.link{
+    display: none;
+}
+
+nav.side-nav ul.side-nav-links a li.side-nav-link.active div.link, nav.side-nav ul.side-nav-links a li.side-nav-link:hover div.link{
+    display: initial;
+}
+
+nav.side-nav ul.side-nav-links a li.side-nav-link.active div.link::after, nav.side-nav ul.side-nav-links a li.side-nav-link:hover div.link::after{
+    background: black;
+    border-radius: 50%;
+    content:"";
+    display: block;
+    height: 5px;
+    margin: auto;
+    margin-top: 5px;
+    width: 5px;
+}
+
+nav.side-nav ul.side-nav-links a li.side-nav-link.active img.link-icon, nav.side-nav ul.side-nav-links a li.side-nav-link:hover img.link-icon{
+    display: none;
+}
