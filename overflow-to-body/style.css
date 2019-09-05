@@ -10,7 +10,8 @@ body{
 nav.side-nav-overflow{
     color: white;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 15px;
+    letter-spacing: 2px;
     height: 100vh;
     position: fixed;
     width: 250px;
@@ -51,14 +52,49 @@ nav.side-nav-overflow div.side-nav-container div.profile{
 }
 
 nav.side-nav-overflow div.side-nav-container div.profile img{
-    height: 60px;
+    height: 80px;
 }
 
 nav.side-nav-overflow div.side-nav-container div.profile div.image-frame{
     border-radius: 50%;
-    height: 60px;
+    height: 80px;
     margin: auto;
     overflow: hidden;
-    position: relative;
-    width: 60px;
+    width: 80px;
+}
+
+nav.side-nav-overflow div.side-nav-container div.profile p.name{
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav.side-nav-overflow div.side-nav-container ul.side-nav-links{
+    margin: auto;
+    margin-left: 25px;
+}
+
+nav.side-nav-overflow div.side-nav-container ul.side-nav-links a.side-nav-link{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav.side-nav-overflow div.side-nav-container ul.side-nav-links a.side-nav-link li {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+nav.side-nav-overflow div.side-nav-container ul.side-nav-links a.side-nav-link li img.link-icon{
+    height: 28px;
+    margin: auto 20px auto 0;
+}
+
+nav.side-nav-overflow div.side-nav-container ul.side-nav-links a.side-nav-link li span.link-name{
+    margin: auto 0;
+}
+
+footer.side-nav-footer{
+    position: absolute;
+    bottom: 0;
 }
