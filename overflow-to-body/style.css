@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(239, 244, 250);
+}
+
+nav.side-nav-overflow{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+}
+
+nav.side-nav-overflow header.logo-container{
+    display: flex;
+    height: 80px;
+}
+
+nav.side-nav-overflow header.logo-container img.logo{
+    height: 42px;
+    margin: auto;
+    margin-left: 20px;
+}
+
+nav.side-nav-overflow header.logo-container h1.name{
+    color: black;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-left: -30px;
+}
+
+nav.side-nav-overflow header.logo-container h1.name span.bold{
+    color: #5b588f;
+    font-weight: 600;
+}
+
+nav.side-nav-overflow div.side-nav-container{
+    border-top-right-radius: 40px;
+    background: rgb(80, 97, 206);
+    height: 100vh;
+}
+
+nav.side-nav-overflow div.side-nav-container div.profile{
+    padding: 30px 0px;
+}
+
+nav.side-nav-overflow div.side-nav-container div.profile img{
+    height: 60px;
+}
+
+nav.side-nav-overflow div.side-nav-container div.profile div.image-frame{
+    border-radius: 50%;
+    height: 60px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 60px;
+}
