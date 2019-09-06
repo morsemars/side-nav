@@ -47,6 +47,7 @@ nav.side-nav header.profile h2.name{
     letter-spacing: 1px;
     margin: auto;
     margin-top: 20px;
+    text-align: center;
 }
 
 nav.side-nav div.search{   
@@ -61,7 +62,7 @@ nav.side-nav div.search form{
 nav.side-nav div.search form input#search{
     border-radius: 30px;
     border: none;
-    background: #edeef430;
+    background: hsla(231, 24%, 94%, 0.188);
     color: white;
     margin: auto 15px;
     padding: 10px 10px;
@@ -131,10 +132,11 @@ nav.side-nav ul.side-nav-links a.side-nav-link.active::after{
     background: #288dc3;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    bottom: -20px;
+    bottom: -21px;
     content: "";
+    left:0;
     position: absolute;
-    height: 20px;
+    height: 21px;
     width: 100%;
     z-index: 2;
 }
